@@ -12,14 +12,19 @@ to manage that one channel and is not available to the public.</p>
 <p>With the channel owner's permission (Google OAuth), the tool uses the YouTube Data API to upload videos, set
 thumbnails and captions, read basic channel information and update channel settings of the owner's own channel.
 It does not access any other user's data.</p>
-<h2>How data is stored</h2>
-<p>The OAuth credentials are stored as encrypted environment secrets in the owner's private build environment.
-No personal data of viewers or other users is collected, stored, sold or shared.</p>
-<h2>YouTube and Google</h2>
-<p>This tool uses YouTube API Services. By using it you are also bound by the
-<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and the
-<a href="https://policies.google.com/privacy">Google Privacy Policy</a> applies. Access can be revoked at any time at
-<a href="https://security.google.com/settings/security/permissions">Google security settings</a>.</p>
+<h2>Use of YouTube API Services</h2>
+<p>Kept Quiet Uploader uses <b>YouTube API Services</b>. By using it you agree to be bound by the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. YouTube data is handled under the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<h2>What we store and for how long</h2>
+<p>The only stored item is the OAuth refresh token for the owner's channel, kept as an encrypted environment secret in
+the owner's private build environment so that uploads can run. Data returned by the API (for example the ID of an
+uploaded video) is used only during that run and is not stored. We use no cookies, no analytics and no third-party
+sharing. No personal data of viewers or other YouTube users is ever collected, stored, sold or shared.</p>
+<h2>How to revoke access and delete data</h2>
+<p>Access can be revoked at any time from the
+<a href="https://security.google.com/settings/security/permissions">Google security settings page</a>. When access is
+revoked, or on request to the email below, the stored refresh token is deleted within 7 days.</p>
 <h2>Contact</h2>
 <p>kobi.mazuz@gmail.com</p>
 </main></body></html>
