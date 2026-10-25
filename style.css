@@ -5,3 +5,13 @@ h1{font-size:44px;letter-spacing:4px;margin:16px 0 4px}h2{color:var(--gold);font
 .tag{color:var(--gold);letter-spacing:3px;font:600 13px/1.4 Arial,sans-serif;text-transform:uppercase}
 img.logo{width:120px;height:120px;border-radius:50%}footer{color:var(--muted);font-size:14px;margin-top:48px}
 a.yt{display:inline-block;background:#ff0000;color:#fff;text-decoration:none;font:700 16px Arial,sans-serif;padding:12px 20px;border-radius:8px}
+a.cast{display:inline-block;margin:6px 0 0 10px;border:1px solid var(--gold);color:var(--gold);text-decoration:none;font:700 16px Arial,sans-serif;padding:11px 20px;border-radius:8px}
+main.wide{max-width:1040px}.sub{color:var(--muted);margin-top:-8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:18px;margin:20px 0}
+.card{margin:0;background:#17141c;border:1px solid #2a2530;border-radius:12px;overflow:hidden}
+.card img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover}
+.card figcaption{padding:12px 14px 16px;font:14px/1.5 Arial,sans-serif}
+.card b{display:block;color:var(--gold);font:700 16px Georgia,serif}
+.card .age{display:block;color:var(--muted);font-size:12px;margin-bottom:6px}
+.card .bio{display:block;color:var(--fg)}
+.soon{display:inline-block;margin-left:8px;font:700 10px Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;color:#0f0d12;background:var(--gold);padding:2px 6px;border-radius:4px;vertical-align:middle}
